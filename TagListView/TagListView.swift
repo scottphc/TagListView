@@ -294,7 +294,8 @@ open class TagListView: UIView {
     
     private func createNewTagView(_ title: String) -> TagView {
         let tagView = TagView(title: title)
-        
+
+        tagView.contentHorizontalAlignment = .left
         tagView.textColor = textColor
         tagView.selectedTextColor = selectedTextColor
         tagView.tagBackgroundColor = tagBackgroundColor
